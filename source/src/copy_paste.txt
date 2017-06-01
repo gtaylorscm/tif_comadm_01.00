@@ -1,0 +1,54 @@
+Name: ucmodule
+Location: templates/rrdg/ucmodule.dta
+Label: ucmodule
+Description: ucmodule
+Content-Type: application/octet-stream
+Is-Report: true
+Context: view, module, collection
+
+OWS.SE.RD.00004
+
+https://rmv-policy-poc:9443/rm/publish/modules?resourceURI=_488629112f114633aa973adebca8ee7d
+
+about.replace("/resources/","/publish/text?resourceURI=");
+
+Schema file: https://rmv-policy-poc:9443/rm/publish/resources?projectName=OneWeb
+
+
+https://rmv-policy-poc:9443/rm/publish/_text?resourceURI=0f3e558ffec6423bb6adcb51acc24008,f84c90e21f3d439f850f70e09ef9f42c
+
+https://rmv-policy-poc:9443/rm/publish/text?viewURI=_n9DDsO_KEeas0rV_vN8qUQ&vvc&projectURI=_nGcsIe0HEeaXb92MyRrj1g
+
+65188647157f4d1a85765d67b5a466d3
+https://rmv-policy-poc:9443/ccm/service/com.ibm.team.git.common.internal.IGitHubInvokeService?repoKey=65188647157f4d1a85765d67b5a466d3
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDwvER5WUAYmi3Q5xY8YonczMN+wZuunTK1OANvvFo                                                                                                                                                                                               W0s0mVG/OxG4GYNa1T1lH89YpnF74nCRbQ/JjzjGOr1T+fvbnHU2nqItQ/cw4Ii3IWXYTCuxNMGjFa44                                                                                                                                                                                               rU5qZiQQtjNv55+7NDAZ8sMozQlHYGjHGsz2s/YTzyMf2stnfsm1GhNJdAvWda9KWKMmxnfUtJyzbvgu                                                                                                                                                                                               UY4Xk/oavZNIDLXVnNwynajp8lSLYiANvd5rxjYr0NxPXSuwUO0IHwlNZ8N6mEZ91jwrmEYdiIiZ85b1                                                                                                                                                                                               aeAdqlBvQ/t72Hi3/QMrLkfqRLUJ1BeAl1ELLTjM7jhROJGCBRtmkQCP0GQJ Andrey@SCM-15
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDwvER5WUAYmi3Q5xY8YonczMN+wZuunTK1OANvvFoW0s0mVG/OxG4GYNa1T1lH89YpnF74nCRbQ/JjzjGOr1T+fvbnHU2nqItQ/cw4Ii3IWXYTCuxNMGjFa44rU5qZiQQtjNv55+7NDAZ8sMozQlHYGjHGsz2s/YTzyMf2stnfsm1GhNJdAvWda9KWKMmxnfUtJyzbvguUY4Xk/oavZNIDLXVnNwynajp8lSLYiANvd5rxjYr0NxPXSuwUO0IHwlNZ8N6mEZ91jwrmEYdiIiZ85b1aeAdqlBvQ/t72Hi3/QMrLkfqRLUJ1BeAl1ELLTjM7jhROJGCBRtmkQCP0GQJ Andrey@SCM-15
+
+akulpanovich@scmsol.onmicrosoft.com
+alias nano='winpty nano'
+
+Andrey@SCM-15 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 53288
+
+Andrey@SCM-15 MINGW64 ~
+$ ssh-add ~/scm15
+Enter passphrase for /c/Users/Andrey/scm15:
+Identity added: /c/Users/Andrey/scm15 (/c/Users/Andrey/scm15)
+
+Sub ApplyTableStyle()
+Dim t As Table
+For Each t In ActiveDocument.Tables
+t.Style = "Light Shading - Accent 3" 'Specify table style name here
+Next 
+End Sub
+Private Sub Document_New()
+
+  'Greet user.
+
+  MsgBox "Greetings", vbOKOnly, "Greetings"
+
+End Sub
+
